@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naimur Rahman Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="code-bg" id="codeBg"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#courses">Courses</a>
+  <a href="#projects">Projects</a>
+  <button id="themeToggle">🌙</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-card">
+    <img id="photo" src="" alt="Profile Photo">
+    <h1 id="name"></h1>
+    <p id="bio"></p>
+    <div class="social-icons" id="socials"></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <h2>Skills</h2>
+  <div id="skillsList"></div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+  <h2>Education</h2>
+  <div id="educationList"></div>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses">
+  <h2>Courses</h2>
+  <div id="courseList"></div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <h2>Projects</h2>
+  <div id="projectFilters">
+    <button data-cat="All">All</button>
+    <button data-cat="Research & Statistics">Research</button>
+    <button data-cat="SQL">SQL</button>
+    <button data-cat="Excel">Excel</button>
+    <button data-cat="Power BI">Power BI</button>
+  </div>
+  <div class="projects-grid" id="projectsGrid"></div>
+</section>
+
+<!-- SECTION POPUP -->
+<div class="section-popup" id="sectionPopup"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
