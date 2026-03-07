@@ -1,0 +1,126 @@
+{
+  "name": "Naimur Rahman",
+  "bio": "Statistics graduate and data enthusiast passionate about research, analytics, and transforming data into actionable insights.",
+  "profilePhoto": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/myphoto.png",
+  "socials": [
+    {"name": "Facebook", "icon": "fab fa-facebook", "link": "https://facebook.com/naimurrahman.mehrab"},
+    {"name": "YouTube", "icon": "fab fa-youtube", "link": "https://youtube.com"},
+    {"name": "LinkedIn", "icon": "fab fa-linkedin", "link": "https://linkedin.com/in/naimurrahman33"},
+    {"name": "GitHub", "icon": "fab fa-github", "link": "https://github.com/NaimurRah1"},
+    {"name": "Instagram", "icon": "fab fa-instagram", "link": "https://instagram.com/naimurrahman853"}
+  ],
+  "education": [
+    {
+      "institution": "Jagannath University",
+      "degree": "BSc in Statistics",
+      "gpa": "3.79 / 4.00",
+      "year": "2024",
+      "logo": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/Jagannath%20University.png",
+      "subjects": ["Probability & Statistics","Regression Analysis","Econometrics","Sampling Techniques","Multivariate Analysis","Time Series Analysis","Biostatistics"]
+    },
+    {
+      "institution": "Jagannath University",
+      "degree": "MSc in Statistics",
+      "gpa": "3.80 / 4.00",
+      "year": "2025",
+      "logo": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/Jagannath%20University.png",
+      "subjects": ["Advance Multivariate Analysis","Advanced Sampling Techniques","Data Mining","Advanced Sample Design","Thesis"]
+    },
+    {
+      "institution": "Hajigonj Degree College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "gpa": "4.50 / 5.00",
+      "year": "2018",
+      "logo": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/Hajiganj%20degree%20college.jpg"
+    },
+    {
+      "institution": "Nizmehar Model Pilot High School",
+      "degree": "Secondary School Certificate (SSC)",
+      "gpa": "4.80 / 5.00",
+      "year": "2016",
+      "logo": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman.github.oi/main/nizmehar_logo.png"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Data Analysis in Excel",
+      "institution": "Coursera",
+      "year": "2023",
+      "desc": "A comprehensive program covering data cleaning, visualization, and analysis using Excel and spreadsheets. Including hypothesis testing, time series analysis and regression analysis in Excel and SPSS."
+    },
+    {
+      "title": "Data Analytics with Excel, Power BI, SQL and Python",
+      "institution": "Data Solution 360",
+      "year": "2025",
+      "desc": "Learn SQL queries, joins, aggregations, and data extraction for analytics. Excel: Power Query, Power Pivot, and Power BI for data modeling and visualization. Python: Data manipulation with Pandas and data visualization with Matplotlib and Seaborn. SQL: Database management and querying for data analytics."
+    }
+  ],
+  "projects": [
+   {
+  "title": "The association between breastfeeding practices and child nutrition status in Bangladesh",
+  "desc": "This study examines the impact of breastfeeding practices on child nutrition in Bangladesh. It analyzes exclusive breastfeeding, early initiation, and prelacteal feeding. Maternal, household, and regional factors are considered. The research highlights key determinants of malnutrition among children aged 0–23 months.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh/main/association%20between%20bf%20and%20cn.png",
+  "category": "Research & Statistics",
+  "link": "https://github.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh"
+   },
+   {
+  "title": "UrbanCart-Sales-Analytics-SQL-Based-Business-Insights",
+  "desc": "A data-driven analysis of UrbanCart’s sales and customer behavior using SQL. The project identifies top-performing products, high-revenue product pairs, stock-out risks, customer retention trends, basket sizes, and payment method patterns. Key SQL functions used include SUM, AVG, COUNT, DATE_TRUNC, EXTRACT, CASE WHEN, RANK, ROW_NUMBER, INNER JOIN, LEFT JOIN, and CTEs. Actionable recommendations were derived to optimize inventory, promotions, cross-selling, and loyalty strategies, helping improve revenue and customer experience.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights/main/image/page1.png",
+  "category": "SQL",
+  "link": "https://github.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights.git"
+   },
+    {
+  "title": "Dynamic Sales Dashboard-Excel Base Business Insights",
+  "desc": "An interactive Excel dashboard built to analyze sales and transaction performance for a coffee and food business. The dashboard provides key KPIs such as total transactions, quantity sold, revenue, and profit, along with insights into product categories, weekly and monthly sales trends, year-over-year revenue comparison, city-wise performance, and revenue vs profit analysis. Dynamic slicers for Year, Month, and City enable real-time filtering and business-focused decision-making.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co./main/NextPoint%20Sales%20analysis.png",
+  "category": "Excel",
+  "link": "https://github.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co."
+},
+    {
+    "title": "RFM Segmentation - SQL Based Analysis",
+    "desc": "This project performs RFM Segmentation (Recency, Frequency, Monetary) using SQL to classify customers into meaningful segments. It helps businesses improve customer engagement, retention, and targeted marketing strategies.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg",
+    "category": "SQL",
+    "link": "https://github.com/NaimurRah1/RFM-segmentation-SQL-Based-project.git"
+  },
+{
+    "title": "Cohort Analysis - SQL Based Business Analysis",
+    "desc": "This project performs Cohort Analysis to track customer retention over 5 months. Using Python for data upload to PostgreSQL and SQL for cohort queries, it identifies loyal customers and provides insights to improve retention and drive long-term revenue.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis/main/coho/cohort1.jpeg",
+    "category": "SQL",
+    "link": "https://github.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis.git"
+},
+    {
+    "title": "Garments Production Analytics Dashboard - Power BI",
+    "desc": "An end-to-end Power BI dashboard analyzing the garments manufacturing workflow including yarn, knitting, fabric finishing inspection, cutting, production, and shipment performance. The project uses complex data modeling to integrate multiple production stages and deliver interactive insights for monitoring operations and identifying delays.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/photo/garments-powerbi.png",
+    "category": "Power BI",
+    "link": "https://app.powerbi.com/links/i2U9XMnatG?ctid=d57df211-4f37-47c0-81ed-dd6296f7638c&pbi_source=linkShare&bookmarkGuid=172d148d-74f5-4992-8480-47eecba23523"
+}
+  ],
+  "skills": [
+    {"name":"Python","level":90},
+    {"name":"SQL","level":90},
+    {"name":"R","level":90},
+    {"name":"Excel","level":95},
+    {"name":"SPSS","level":98},
+    {"name":"Data Visualization","level":95},
+    {"name":"MetaBase","level":75}
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
