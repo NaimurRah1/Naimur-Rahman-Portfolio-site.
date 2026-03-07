@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naimur Rahman Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naimur Rahman Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 <nav class="navbar">
     <div class="navbar-brand">Naimur Rahman</div>
     <div class="navbar-nav">
-        <a class="nav-link" href="#hero-section">Home</a>
+        <a class="nav-link active" href="#hero-section">Home</a>
         <a class="nav-link" href="#about-section">About</a>
         <a class="nav-link" href="#resume-section">Resume</a>
         <a class="nav-link" href="#project-section">Projects</a>
@@ -23,13 +23,11 @@
 
 <!-- Hero Section -->
 <section id="hero-section" class="hero">
-    <div class="slider-item">
-        <div class="text">
-            <h1>Hello, I'm <span id="name">Naimur Rahman</span></h1>
-            <div id="typing-container"></div>
-        </div>
-        <div class="img" style="background-image:url('images/profile.jpg');"></div>
+    <div class="text">
+        <h1><span class="yellow">Hello</span>, <span class="white">I am</span> <span class="yellow">Naimur Rahman</span></h1>
+        <div id="typing-container"></div>
     </div>
+    <div class="img" style="background-image:url('images/profile.jpg');"></div>
 </section>
 
 <!-- About Section -->
@@ -53,15 +51,11 @@
     </div>
     <div class="resume-wrap">
         <h3>Education</h3>
-        <ul id="education-list">
-            <!-- Populated dynamically -->
-        </ul>
+        <ul id="education-list"></ul>
     </div>
     <div class="resume-wrap">
         <h3>Skills</h3>
-        <div id="skills-container">
-            <!-- Populated dynamically -->
-        </div>
+        <div id="skills-container"></div>
     </div>
 </section>
 
@@ -70,9 +64,7 @@
     <div class="heading-section">
         <h2>Projects</h2>
     </div>
-    <div class="row" id="projects-container">
-        <!-- Projects will be inserted here -->
-    </div>
+    <div class="row" id="projects-container"></div>
 </section>
 
 <!-- Contact Section -->
@@ -115,6 +107,24 @@
     }
 
     type();
+
+    // Navbar active link
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', ()=>{
+        let current = '';
+        sections.forEach(section=>{
+            const sectionTop = section.offsetTop - 60;
+            if(pageYOffset >= sectionTop){current = section.getAttribute('id');}
+        });
+        navLinks.forEach(link=>{
+            link.classList.remove('active');
+            if(link.getAttribute('href') === '#' + current){
+                link.classList.add('active');
+            }
+        });
+    });
 </script>
 </body>
 </html>
