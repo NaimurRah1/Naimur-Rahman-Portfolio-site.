@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let div = document.createElement('div');
             div.className='skill';
             div.innerHTML=`<h4>${skill.name}</h4>
-            <div class="progress-bar" style="width:${skill.level}%; background-color:#3b82f6; padding:5px 0; border-radius:5px; color:white;">${skill.level}%</div>`;
+            <div class="progress-bar" style="width:${skill.level}%; background-color:#FFD700; padding:5px 0; border-radius:5px; color:black;">${skill.level}%</div>`;
             skillsContainer.appendChild(div);
         });
 
