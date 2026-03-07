@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Naimur Rahman Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naimur Rahman Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar">
-    <div class="navbar-brand">Naimur Rahman</div>
-    <div class="navbar-nav">
-        <a class="nav-link active" href="#hero-section">Home</a>
-        <a class="nav-link" href="#about-section">About</a>
-        <a class="nav-link" href="#resume-section">Resume</a>
-        <a class="nav-link" href="#project-section">Projects</a>
-        <a class="nav-link" href="#contact-section">Contact</a>
-    </div>
+<nav>
+    <ul>
+        <li><a href="#hero-section" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
 </nav>
 
 <!-- Hero Section -->
 <section id="hero-section" class="hero">
     <div class="text">
         <h1>
-            <span class="yellow">Hello</span><br>
+            <span class="yellow small">Hello!</span><br>
             <span class="white">I am</span> <span class="yellow">Naimur</span><br>
             <span class="yellow">Rahman</span>
         </h1>
@@ -39,100 +36,24 @@
 </section>
 
 <!-- About Section -->
-<section id="about-section">
-    <div class="heading-section">
-        <h2>About Me</h2>
-        <p id="bio">Statistics graduate and data enthusiast skilled in Python, SQL, Power BI, Excel, and data visualization. Conducted research on BDHS data and child nutrition.</p>
-    </div>
-    <ul class="about-info" id="about-info">
-        <li><strong>Email:</strong> b180304053@stat.jnu.ac.bd</li>
-        <li><strong>Phone:</strong> 01310743379</li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/naimurrahman33" target="_blank">Naimur Rahman</a></li>
-        <li><strong>Portfolio:</strong> <a href="https://naimurrah1.github.io/Naimur-Rahman-Website/" target="_blank">View Site</a></li>
-    </ul>
-</section>
-
-<!-- Resume Section -->
-<section id="resume-section">
-    <div class="heading-section">
-        <h2>Resume</h2>
-    </div>
-    <div class="resume-wrap">
-        <h3>Education</h3>
-        <ul id="education-list"></ul>
-    </div>
-    <div class="resume-wrap">
-        <h3>Skills</h3>
-        <div id="skills-container"></div>
-    </div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Statistics graduate and data enthusiast. Skilled in Python, SQL, R, Power BI, Excel, and statistical modeling.</p>
 </section>
 
 <!-- Projects Section -->
-<section id="project-section">
-    <div class="heading-section">
-        <h2>Projects</h2>
-    </div>
-    <div class="row" id="projects-container"></div>
+<section id="projects">
+    <h2>Projects</h2>
+    <p>BDHS-based research projects, cohort analysis, dashboards, and data analytics projects.</p>
 </section>
 
 <!-- Contact Section -->
-<section id="contact-section">
-    <h2>Contact Me</h2>
-    <p>Let's connect for data analytics, research, or collaborations.</p>
-    <p>Email: <a href="mailto:b180304053@stat.jnu.ac.bd">b180304053@stat.jnu.ac.bd</a></p>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: b180304053@stat.jnu.ac.bd</p>
+    <p>Phone: 01310743379</p>
 </section>
 
 <script src="script.js"></script>
-<script>
-    // Typing animation
-    const typingText = ["Data Analyst", "Python & SQL Expert", "Power BI Developer"];
-    let i=0, j=0;
-    const typingContainer = document.getElementById("typing-container");
-    const cursor = document.createElement("span");
-    cursor.className = "cursor";
-    typingContainer.appendChild(cursor);
-
-    function type(){
-        if(i < typingText.length){
-            if(j < typingText[i].length){
-                typingContainer.textContent += typingText[i][j];
-                typingContainer.appendChild(cursor);
-                j++;
-                setTimeout(type, 120);
-            } else {
-                setTimeout(erase, 1500);
-            }
-        } else { i=0; type(); }
-    }
-
-    function erase(){
-        if(j > 0){
-            typingContainer.textContent = typingText[i].substring(0,j-1);
-            typingContainer.appendChild(cursor);
-            j--;
-            setTimeout(erase, 80);
-        } else { i++; type(); }
-    }
-
-    type();
-
-    // Navbar active link
-    const sections = document.querySelectorAll('section');
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    window.addEventListener('scroll', ()=>{
-        let current = '';
-        sections.forEach(section=>{
-            const sectionTop = section.offsetTop - 60;
-            if(pageYOffset >= sectionTop){current = section.getAttribute('id');}
-        });
-        navLinks.forEach(link=>{
-            link.classList.remove('active');
-            if(link.getAttribute('href') === '#' + current){
-                link.classList.add('active');
-            }
-        });
-    });
-</script>
 </body>
 </html>
