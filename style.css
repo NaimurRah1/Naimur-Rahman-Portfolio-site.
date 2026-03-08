@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #000000;
-    --accent-color: #FFD700;
+    --accent-color: #cf9c10;
     --text-color: #FFFFFF;
 }
 
@@ -215,6 +215,7 @@ color:#aaa;
     .about-info{grid-template-columns:1fr;}
     #projects-container{justify-content:center;}
 }
+
 
 
 
