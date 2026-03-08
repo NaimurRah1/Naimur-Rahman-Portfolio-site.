@@ -21,7 +21,8 @@ data.education.forEach(edu => {
     div.innerHTML = `
         <h3>${edu.degree}</h3>
         <p>${edu.institution}</p>
-        <span>CGPA: ${edu.cgpa || '-'}</span>
+        <p>${edu.year}</p>
+        <span>Result: ${edu.CGPA || edu.GPA || '-'}</span>
     `;
     eduContainer.appendChild(div);
 });
@@ -75,4 +76,5 @@ const observer = new IntersectionObserver(entries => {
 },{threshold: 0.5});
 
 observer.observe(document.querySelector('#projects-counter'));
+
 
