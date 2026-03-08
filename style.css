@@ -44,50 +44,57 @@ ul{list-style:none;}
 .navbar .nav-link.active{color:var(--accent-color);}
 
 /* -- hero*/
-.hero{
-    height:100vh;
+/* HERO BUTTONS */
+.hero-buttons{
+    margin-top:25px;
     display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:0 50px;
+    gap:15px;
+    flex-wrap:wrap;
 }
 
-.hero .text h1{
-    font-size:48px;
-    margin-bottom:15px;
+/* Base button style */
+.btn{
+    padding:12px 22px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:500;
+    text-decoration:none;
+    transition:all 0.3s ease;
 }
 
-.hero .text .yellow{
+/* Primary (yellow accent) */
+.btn-primary{
+    background:var(--accent-color);
+    color:#000;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(255,215,0,0.4);
+}
+
+/* Outline button */
+.btn-outline{
+    border:2px solid var(--accent-color);
     color:var(--accent-color);
 }
 
-.hero .text .white{
-    color:var(--text-color);
+.btn-outline:hover{
+    background:var(--accent-color);
+    color:#000;
 }
 
-.hero .img{
-    width:350px;
-    height:350px;
-    background-size:cover;
-    background-position:center;
-    border-radius:20px;
-    box-shadow:0 15px 35px rgba(255,215,0,0.3);
+/* Glass / dark button */
+.btn-glass{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    color:#fff;
+    backdrop-filter:blur(10px);
 }
 
-/* Small Hello on top */
-.hello{
-    font-size:20px;
-    font-weight:400;
-    margin-bottom:10px;
-}
-
-/* Short description under typing */
-.hero-desc{
-    margin-top:15px;
-    max-width:420px;   /* keeps text from crossing half the page */
-    font-size:16px;
-    line-height:1.6;
-    color:#ccc;
+.btn-glass:hover{
+    background:rgba(255,255,255,0.15);
+    transform:translateY(-3px);
 }
 /* hero end*/
 #typing-container{font-weight:500;color:var(--accent-color);font-size:20px;display:inline;}
@@ -159,6 +166,7 @@ color:#aaa;
     .about-info{grid-template-columns:1fr;}
     #projects-container{justify-content:center;}
 }
+
 
 
 
