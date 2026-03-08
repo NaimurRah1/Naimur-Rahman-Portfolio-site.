@@ -1,74 +1,100 @@
 {
-  "name": "Naimur Rahman",
-  "bio": "Statistics graduate and data enthusiast skilled in Python, SQL, Power BI, Excel, and data visualization. Conducted research on BDHS data and child nutrition.",
-  "photo": "images/profile.jpg",
-  "socials": {
-    "LinkedIn": "https://www.linkedin.com/in/naimurrahman33",
-    "GitHub": "https://github.com/naimurrah1",
-    "Portfolio": "https://naimurrah1.github.io/Naimur-Rahman-Website/"
-  },
-  "education": [
-    {"degree":"MSc in Statistics","institution":"Jagannath University","year":"2025","CGPA":3.76},
-    {"degree":"BSc in Statistics","institution":"Jagannath University","year":"2023","CGPA":3.79},
-    {"degree":"Higher Secondary School Certificate","institution":"Hajiganj Degree College","year":"2018","GPA":4.50},
-    {"degree":"Secondary School Certificate","institution":"Nizmehar Model Pilot High School ","year":"2016","GPA":4.89}
-  ],
-  "skills":[
-    {"name":"Python","level":90},
-    {"name":"SQL","level":85},
-    {"name":"Power BI","level":80},
-    {"name":"Excel","level":95},
-    {"name":"R","level":80},
-    {"name":"Data Visualization","level":90}
-  ],
-   "projects": [
-   {
-  "title": "The association between breastfeeding practices and child nutrition status in Bangladesh",
-  "desc": "This study examines the impact of breastfeeding practices on child nutrition in Bangladesh. It analyzes exclusive breastfeeding, early initiation, and prelacteal feeding. Maternal, household, and regional factors are considered. The research highlights key determinants of malnutrition among children aged 0–23 months.",
-  "image": "https://raw.githubusercontent.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh/main/association%20between%20bf%20and%20cn.png",
-  "category": "Research & Statistics",
-  "link": "https://github.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh"
-   },
-   {
-  "title": "UrbanCart-Sales-Analytics-SQL-Based-Business-Insights",
-  "desc": "A data-driven analysis of UrbanCart’s sales and customer behavior using SQL. The project identifies top-performing products, high-revenue product pairs, stock-out risks, customer retention trends, basket sizes, and payment method patterns. Key SQL functions used include SUM, AVG, COUNT, DATE_TRUNC, EXTRACT, CASE WHEN, RANK, ROW_NUMBER, INNER JOIN, LEFT JOIN, and CTEs. Actionable recommendations were derived to optimize inventory, promotions, cross-selling, and loyalty strategies, helping improve revenue and customer experience.",
+"name": "Naimur Rahman",
+"bio": "Statistics graduate and data enthusiast skilled in Python, SQL, Power BI, Excel, and data visualization. Conducted research on BDHS data and child nutrition.",
+"photo": "images/profile.jpg",
+
+"socials": {
+"LinkedIn": "https://www.linkedin.com/in/naimurrahman33",
+"GitHub": "https://github.com/naimurrah1",
+"Portfolio": "https://naimurrah1.github.io/Naimur-Rahman-Website/"
+},
+
+"education": [
+{
+"degree": "MSc in Statistics",
+"institution": "Jagannath University",
+"year": "2025",
+"CGPA": 3.76
+},
+{
+"degree": "BSc in Statistics",
+"institution": "Jagannath University",
+"year": "2023",
+"CGPA": 3.79
+},
+{
+"degree": "Higher Secondary School Certificate",
+"institution": "Hajiganj Degree College",
+"year": "2018",
+"GPA": 4.50
+},
+{
+"degree": "Secondary School Certificate",
+"institution": "Nizmehar Model Pilot High School",
+"year": "2016",
+"GPA": 4.89
+}
+],
+
+"skills": [
+{"name": "Python", "level": 90},
+{"name": "SQL", "level": 85},
+{"name": "Power BI", "level": 80},
+{"name": "Excel", "level": 95},
+{"name": "R", "level": 80},
+{"name": "Data Visualization", "level": 90}
+],
+
+"projects": [
+{
+"title": "The association between breastfeeding practices and child nutrition status in Bangladesh",
+"desc": "This study examines the impact of breastfeeding practices on child nutrition in Bangladesh. It analyzes exclusive breastfeeding, early initiation, and prelacteal feeding. Maternal, household, and regional factors are considered. The research highlights key determinants of malnutrition among children aged 0–23 months.",
+"image": "https://raw.githubusercontent.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh/main/association%20between%20bf%20and%20cn.png",
+"category": "Research & Statistics",
+"link": "https://github.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh"
+},
+
+```
+{
+  "title": "UrbanCart Sales Analytics - SQL Based Business Insights",
+  "desc": "A data-driven analysis of UrbanCart’s sales and customer behavior using SQL. The project identifies top-performing products, high-revenue product pairs, stock-out risks, customer retention trends, basket sizes, and payment method patterns.",
   "image": "https://raw.githubusercontent.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights/main/image/page1.png",
   "category": "SQL",
-  "link": "https://github.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights.git"
-   },
-    {
-  "title": "Dynamic Sales Dashboard-Excel Base Business Insights",
-  "desc": "An interactive Excel dashboard built to analyze sales and transaction performance for a coffee and food business. The dashboard provides key KPIs such as total transactions, quantity sold, revenue, and profit, along with insights into product categories, weekly and monthly sales trends, year-over-year revenue comparison, city-wise performance, and revenue vs profit analysis. Dynamic slicers for Year, Month, and City enable real-time filtering and business-focused decision-making.",
+  "link": "https://github.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights"
+},
+
+{
+  "title": "Dynamic Sales Dashboard - Excel Based Business Insights",
+  "desc": "An interactive Excel dashboard built to analyze sales and transaction performance for a coffee and food business. The dashboard provides KPIs such as transactions, revenue, profit, category analysis, and year-over-year comparison.",
   "image": "https://raw.githubusercontent.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co./main/NextPoint%20Sales%20analysis.png",
   "category": "Excel",
   "link": "https://github.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co."
 },
-    {
-    "title": "RFM Segmentation - SQL Based Analysis",
-    "desc": "This project performs RFM Segmentation (Recency, Frequency, Monetary) using SQL to classify customers into meaningful segments. It helps businesses improve customer engagement, retention, and targeted marketing strategies.",
-    "image": "https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg",
-    "category": "SQL",
-    "link": "https://github.com/NaimurRah1/RFM-segmentation-SQL-Based-project.git"
-  },
+
 {
-    "title": "Cohort Analysis - SQL Based Business Analysis",
-    "desc": "This project performs Cohort Analysis to track customer retention over 5 months. Using Python for data upload to PostgreSQL and SQL for cohort queries, it identifies loyal customers and provides insights to improve retention and drive long-term revenue.",
-    "image": "https://raw.githubusercontent.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis/main/coho/cohort1.jpeg",
-    "category": "SQL",
-    "link": "https://github.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis.git"
+  "title": "RFM Segmentation - SQL Based Analysis",
+  "desc": "This project performs RFM Segmentation (Recency, Frequency, Monetary) using SQL to classify customers into meaningful segments and support targeted marketing strategies.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg",
+  "category": "SQL",
+  "link": "https://github.com/NaimurRah1/RFM-segmentation-SQL-Based-project"
 },
-    {
-    "title": "Garments Production Analytics Dashboard - Power BI",
-    "desc": "An end-to-end Power BI dashboard analyzing the garments manufacturing workflow including yarn, knitting, fabric finishing inspection, cutting, production, and shipment performance. The project uses complex data modeling to integrate multiple production stages and deliver interactive insights for monitoring operations and identifying delays.",
-    "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/photo/garments-powerbi.png",
-    "category": "Power BI",
-    "link": "https://app.powerbi.com/links/i2U9XMnatG?ctid=d57df211-4f37-47c0-81ed-dd6296f7638c&pbi_source=linkShare&bookmarkGuid=172d148d-74f5-4992-8480-47eecba23523"
+
+{
+  "title": "Cohort Analysis - SQL Based Business Analysis",
+  "desc": "This project performs Cohort Analysis to track customer retention over time. Using Python and SQL queries, it identifies loyal customers and provides insights to improve retention and revenue.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis/main/coho/cohort1.jpeg",
+  "category": "SQL",
+  "link": "https://github.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis"
+},
+
+{
+  "title": "Garments Production Analytics Dashboard - Power BI",
+  "desc": "An end-to-end Power BI dashboard analyzing the garments manufacturing workflow including yarn, knitting, fabric finishing, cutting, production, and shipment performance.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/photo/garments-powerbi.png",
+  "category": "Power BI",
+  "link": "https://app.powerbi.com/links/i2U9XMnatG?ctid=d57df211-4f37-47c0-81ed-dd6296f7638c&pbi_source=linkShare&bookmarkGuid=172d148d-74f5-4992-8480-47eecba23523"
 }
-  ]
+```
+
+]
 }
-
-
-
-
-
-
