@@ -21,27 +21,52 @@
     {"name":"R","level":80},
     {"name":"Data Visualization","level":90}
   ],
-  "projects":[
+  "projects": [
+   {
+  "title": "The association between breastfeeding practices and child nutrition status in Bangladesh",
+  "desc": "This study examines the impact of breastfeeding practices on child nutrition in Bangladesh. It analyzes exclusive breastfeeding, early initiation, and prelacteal feeding. Maternal, household, and regional factors are considered. The research highlights key determinants of malnutrition among children aged 0–23 months.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh/main/association%20between%20bf%20and%20cn.png",
+  "category": "Research & Statistics",
+  "link": "https://github.com/NaimurRah1/Association-between-breastfeedin-practice-and-child-nutrition-status-in-Bangladesh"
+   },
+   {
+  "title": "UrbanCart-Sales-Analytics-SQL-Based-Business-Insights",
+  "desc": "A data-driven analysis of UrbanCart’s sales and customer behavior using SQL. The project identifies top-performing products, high-revenue product pairs, stock-out risks, customer retention trends, basket sizes, and payment method patterns. Key SQL functions used include SUM, AVG, COUNT, DATE_TRUNC, EXTRACT, CASE WHEN, RANK, ROW_NUMBER, INNER JOIN, LEFT JOIN, and CTEs. Actionable recommendations were derived to optimize inventory, promotions, cross-selling, and loyalty strategies, helping improve revenue and customer experience.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights/main/image/page1.png",
+  "category": "SQL",
+  "link": "https://github.com/NaimurRah1/UrbanCart-Sales-Analytics-SQL-Based-Business-Insights.git"
+   },
     {
-      "title":"Cohort Analysis - SQL Based",
-      "desc":"Performed cohort analysis to track customer retention over 5 months using Python & PostgreSQL.",
-      "image":"images/proj_1.jpg",
-      "link":"https://github.com/naimurrah1/Cohort-Analysis--SQL-based-business-analysis"
-    },
+  "title": "Dynamic Sales Dashboard-Excel Base Business Insights",
+  "desc": "An interactive Excel dashboard built to analyze sales and transaction performance for a coffee and food business. The dashboard provides key KPIs such as total transactions, quantity sold, revenue, and profit, along with insights into product categories, weekly and monthly sales trends, year-over-year revenue comparison, city-wise performance, and revenue vs profit analysis. Dynamic slicers for Year, Month, and City enable real-time filtering and business-focused decision-making.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co./main/NextPoint%20Sales%20analysis.png",
+  "category": "Excel",
+  "link": "https://github.com/NaimurRah1/Dynamic-Sales-Dashboard-for-NextPoint-Trading-Co."
+},
     {
-      "title":"BDHS Child Nutrition Study",
-      "desc":"Analyzed stunting, wasting, and underweight determinants using BDHS datasets.",
-      "image":"images/proj_2.jpg",
-      "link":"#"
-    },
+    "title": "RFM Segmentation - SQL Based Analysis",
+    "desc": "This project performs RFM Segmentation (Recency, Frequency, Monetary) using SQL to classify customers into meaningful segments. It helps businesses improve customer engagement, retention, and targeted marketing strategies.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/RFM-segmentation-SQL-Based-project/main/image/rfm1.jpeg",
+    "category": "SQL",
+    "link": "https://github.com/NaimurRah1/RFM-segmentation-SQL-Based-project.git"
+  },
+{
+    "title": "Cohort Analysis - SQL Based Business Analysis",
+    "desc": "This project performs Cohort Analysis to track customer retention over 5 months. Using Python for data upload to PostgreSQL and SQL for cohort queries, it identifies loyal customers and provides insights to improve retention and drive long-term revenue.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis/main/coho/cohort1.jpeg",
+    "category": "SQL",
+    "link": "https://github.com/NaimurRah1/Cohort-Analysis--SQL-based-business-analysis.git"
+},
     {
-      "title":"Power BI Dashboard",
-      "desc":"Built interactive Power BI dashboard for business and research analytics.",
-      "image":"images/proj_3.jpg",
-      "link":"#"
-    }
+    "title": "Garments Production Analytics Dashboard - Power BI",
+    "desc": "An end-to-end Power BI dashboard analyzing the garments manufacturing workflow including yarn, knitting, fabric finishing inspection, cutting, production, and shipment performance. The project uses complex data modeling to integrate multiple production stages and deliver interactive insights for monitoring operations and identifying delays.",
+    "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/photo/garments-powerbi.png",
+    "category": "Power BI",
+    "link": "https://app.powerbi.com/links/i2U9XMnatG?ctid=d57df211-4f37-47c0-81ed-dd6296f7638c&pbi_source=linkShare&bookmarkGuid=172d148d-74f5-4992-8480-47eecba23523"
+}
   ]
 }
+
 
 
 
