@@ -2,15 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('profile.json')
     .then(res => res.json())
     .then(data => {
-        // Education
-        const eduList = document.getElementById('education-list');
-        data.education.forEach(edu => {
-            let li = document.createElement('li');
-            li.innerHTML = `<strong>${edu.degree}</strong> - ${edu.institution} (${edu.year}) | CGPA: ${edu.cgpa}`;
-            eduList.appendChild(li);
-        });
-
-        // Skills
+        // ------------------- Skills FIRST -------------------
         const skillsContainer = document.getElementById('skills-container');
         data.skills.forEach(skill=>{
             let div = document.createElement('div');
@@ -20,7 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
             skillsContainer.appendChild(div);
         });
 
-        // Projects
+        // ------------------- Education SECOND -------------------
+        const eduList = document.getElementById('education-list');
+        data.education.forEach(edu => {
+            let li = document.createElement('li');
+            li.innerHTML = `<strong>${edu.degree}</strong> - ${edu.institution} (${edu.year}) | CGPA: ${edu.cgpa}`;
+            eduList.appendChild(li);
+        });
+
+        // ------------------- Projects -------------------
         const projectsContainer = document.getElementById('projects-container');
         data.projects.forEach(proj => {
             let div = document.createElement('div');
@@ -34,11 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .catch(err => console.error(err));
 });
 
-// --- your existing script.js code ---
-
-
-// -------------------- Add this at the END --------------------
-// Counter animation for projects
+// --- Counter animation code remains the SAME ---
 const counters = document.querySelectorAll('.count');
 
 const speed = 2000; // duration in ms (2 seconds)
