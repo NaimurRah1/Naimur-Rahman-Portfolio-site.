@@ -423,7 +423,7 @@ ul{list-style:none;}
 
 .project-info a {
     text-decoration: none;
-    color: #fff;
+    color: #2c0606;
     background: #dfa609;
     padding: 6px 12px;
     border-radius: 6px;
@@ -461,6 +461,7 @@ ul{list-style:none;}
     gap: 20px;
     margin-top: 30px;
 }
+
 
 
 
