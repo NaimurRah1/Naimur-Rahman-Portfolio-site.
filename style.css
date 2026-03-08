@@ -330,7 +330,36 @@ ul{list-style:none;}
     }
 }
 /* edu end*/
+/* project */
+/* PROJECT FILTER BUTTONS */
 
+#projectFilters{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+#projectFilters button{
+    padding:10px 18px;
+    margin:6px;
+    border:none;
+    border-radius:20px;
+    background:#111;
+    color:#fff;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+    border:1px solid #333;
+}
+
+#projectFilters button:hover{
+    background:var(--accent-color);
+    color:#000;
+}
+
+#projectFilters button.active{
+    background:var(--accent-color);
+    color:#000;
+}
 #projects-container{display:flex;flex-wrap:wrap;gap:20px;}
 #projects-container .blog-entry{background:#111;border-radius:10px;overflow:hidden;transition:all 0.3s ease;width:300px;}
 #projects-container .blog-entry:hover{transform:translateY(-10px);box-shadow:0 15px 35px rgba(255,215,0,0.3);}
@@ -347,6 +376,7 @@ ul{list-style:none;}
     .about-info{grid-template-columns:1fr;}
     #projects-container{justify-content:center;}
 }
+
 
 
 
