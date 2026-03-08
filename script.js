@@ -28,17 +28,65 @@ data.education.forEach(edu => {
 });
 
         // ------------------- Projects -------------------
-        const projectsContainer = document.getElementById('projects-container');
-        data.projects.forEach(proj => {
-            let div = document.createElement('div');
-            div.className='blog-entry';
-            div.innerHTML=`
-            <a href="${proj.link}" class="block-20" style="background-image:url('${proj.image}');"></a>
-            <div class="text"><h3>${proj.title}</h3><p>${proj.desc}</p></div>`;
-            projectsContainer.appendChild(div);
-        });
-    })
-    .catch(err => console.error(err));
+   let allProjects = [];
+
+fetch("profile.json")
+.then(res => res.json())
+.then(data => {
+
+    allProjects = data.projects;
+
+    displayProjects(allProjects);
+});
+
+function displayProjects(projects){
+
+    const container = document.getElementById("projects-container");
+
+    container.innerHTML = "";
+
+    projects.forEach(project => {
+
+        const card = document.createElement("div");
+        card.className = "project-card";
+
+        card.innerHTML = `
+            <img src="${project.image}" alt="${project.title}">
+            <div class="project-info">
+                <h3>${project.title}</h3>
+                <p>${project.desc}</p>
+                <a href="${project.link}" target="_blank">View Project</a>
+            </div>
+        `;
+
+        container.appendChild(card);
+    });
+
+}
+
+
+const filterButtons = document.querySelectorAll("#projectFilters button");
+
+filterButtons.forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        document.querySelector("#projectFilters .active")?.classList.remove("active");
+
+        btn.classList.add("active");
+
+        const category = btn.dataset.cat;
+
+        if(category === "All"){
+            displayProjects(allProjects);
+        }
+        else{
+            const filtered = allProjects.filter(p => p.category === category);
+            displayProjects(filtered);
+        }
+
+    });
+
 });
 
 // --- Counter animation code remains the SAME ---
@@ -76,5 +124,6 @@ const observer = new IntersectionObserver(entries => {
 },{threshold: 0.5});
 
 observer.observe(document.querySelector('#projects-counter'));
+
 
 
