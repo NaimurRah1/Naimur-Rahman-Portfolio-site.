@@ -33,3 +33,43 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error(err));
 });
+
+// --- your existing script.js code ---
+
+
+// -------------------- Add this at the END --------------------
+// Counter animation for projects
+const counters = document.querySelectorAll('.count');
+
+const speed = 2000; // duration in ms (2 seconds)
+
+const animateCounters = () => {
+    counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const step = target / (speed / 20); // update every 20ms
+
+        const updateCount = () => {
+            count += step;
+            if(count < target){
+                counter.textContent = Math.ceil(count);
+                requestAnimationFrame(updateCount);
+            } else {
+                counter.textContent = target;
+            }
+        }
+        updateCount();
+    });
+}
+
+// Trigger when section comes into view
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            animateCounters();
+            observer.unobserve(entry.target); // run once
+        }
+    });
+},{threshold: 0.5});
+
+observer.observe(document.querySelector('#projects-counter'));
