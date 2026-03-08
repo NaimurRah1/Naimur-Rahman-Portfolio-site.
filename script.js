@@ -12,13 +12,19 @@ document.addEventListener('DOMContentLoaded', () => {
             skillsContainer.appendChild(div);
         });
 
-        // ------------------- Education SECOND -------------------
-        const eduList = document.getElementById('education-list');
-        data.education.forEach(edu => {
-            let li = document.createElement('li');
-            li.innerHTML = `<strong>${edu.degree}</strong> - ${edu.institution} (${edu.year}) | CGPA: ${edu.cgpa}`;
-            eduList.appendChild(li);
-        });
+        // ------------------- Education Cards -------------------
+const eduContainer = document.getElementById('education-container');
+
+data.education.forEach(edu => {
+    const div = document.createElement('div');
+    div.className = 'education-wrap';
+    div.innerHTML = `
+        <h3>${edu.degree}</h3>
+        <p>${edu.institution}</p>
+        <span>CGPA: ${edu.cgpa || '-'}</span>
+    `;
+    eduContainer.appendChild(div);
+});
 
         // ------------------- Projects -------------------
         const projectsContainer = document.getElementById('projects-container');
@@ -69,3 +75,4 @@ const observer = new IntersectionObserver(entries => {
 },{threshold: 0.5});
 
 observer.observe(document.querySelector('#projects-counter'));
+
