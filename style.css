@@ -46,7 +46,7 @@ ul{list-style:none;}
 /* -- hero*/
 /* HERO BUTTONS */
 .hero{
-    min-height:110vh;
+    min-height:120vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -215,6 +215,7 @@ color:#aaa;
     .about-info{grid-template-columns:1fr;}
     #projects-container{justify-content:center;}
 }
+
 
 
 
