@@ -8,10 +8,10 @@
     "Portfolio": "https://naimurrah1.github.io/Naimur-Rahman-Website/"
   },
   "education": [
-    {"degree":"MSc in Statistics","institution":"Jagannath University","year":"2025","CGPA":"3.76 out of 4.00"},
-    {"degree":"BSc in Statistics","institution":"Jagannath University","year":"2023","CGPA":"3.79 out of 4.00"},
-    {"degree":"Higher Secondary School Certificate","institution":"Hajiganj Degree College","year":"2018","GPA":"4.50 out of 5.00"},
-    {"degree":"Secondary School Certificate","institution":"Nizmehar Model Pilot High School ","year":"2016","GPA":"4.89 outof 5.00"}
+    {"degree":"MSc in Statistics","institution":"Jagannath University","year":"2025","CGPA":3.76},
+    {"degree":"BSc in Statistics","institution":"Jagannath University","year":"2023","CGPA":3.79},
+    {"degree":"Higher Secondary School Certificate","institution":"Hajiganj Degree College","year":"2018","GPA":4.50},
+    {"degree":"Secondary School Certificate","institution":"Nizmehar Model Pilot High School ","year":"2016","GPA":4.89}
   ],
   "skills":[
     {"name":"Python","level":90},
@@ -42,6 +42,7 @@
     }
   ]
 }
+
 
 
 
