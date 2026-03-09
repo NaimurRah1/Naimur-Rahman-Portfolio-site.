@@ -407,6 +407,9 @@ ul{list-style:none;}
     border-radius:6px;
     text-decoration:none;
     font-weight:500;
+
+    position:relative;
+    z-index:2;
 }
 
 .course-card a:hover{
@@ -552,6 +555,7 @@ ul{list-style:none;}
     gap: 20px;
     margin-top: 30px;
 }
+
 
 
 
