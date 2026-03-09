@@ -222,10 +222,17 @@
         });
     });
     // Log each visit to Google Sheet
-fetch("https://script.google.com/macros/s/AKfycbxE5x9sKG5xeBZgXg6DCFYdHfxyRJhAnNgyzKdKG9mr7Fy80cV-dGHZG6TB18man-zVSA/exec")
-  .then(res => res.text())
-  .then(console.log)
-  .catch(console.error);
+<script>
+  const logUrl = "https://script.google.com/macros/s/AKfycbxE5x9sKG5xeBZgXg6DCFYdHfxyRJhAnNgyzKdKG9mr7Fy80cV-dGHZG6TB18man-zVSA/exec";
+
+  // Optional: pass page name
+  const pageName = window.location.pathname;
+
+  fetch(`${logUrl}?page=${encodeURIComponent(pageName)}`)
+    .then(res => res.text())
+    .then(console.log)
+    .catch(console.error);
+</script>
 </script>
 </body>
 </html>
