@@ -67,10 +67,10 @@
   ],
   "courses":[
   {
-    "title":"Excel Data Analysis",
-    "institution":"Coursera",
-    "certificate":"certificates/excel_certificate.pdf"
-  },
+  "title": "Excel Data Analysis",
+  "institution": "Data Solution 360",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Portfolio-site/main/images/excel.jfif"
+},
   {
     "title":"Data Analytics with Excel, Power BI, SQL, Python",
     "institution":"Data Solution 360",
@@ -78,6 +78,7 @@
   }
 ]
 }
+
 
 
 
