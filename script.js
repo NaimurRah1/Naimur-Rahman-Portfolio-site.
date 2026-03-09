@@ -45,21 +45,34 @@ fetch('profile.json')
     // Courses
 const courseContainer = document.getElementById("course-container");
 
-if(data.courses){
-    data.courses.forEach(course => {
+if (data.courses) {
+  data.courses.forEach(course => {
 
-        const div = document.createElement("div");
-        div.className = "course-card";
+    const div = document.createElement("div");
+    div.className = "course-card";
 
-        div.innerHTML = `
-            <h4>${course.title}</h4>
-            <p>${course.institution}</p>
-            <a href="${course.certificate}" target="_blank">View Certificate</a>
-        `;
+    let preview = "";
+    let link = "";
 
-        courseContainer.appendChild(div);
+    if (course.image) {
+      preview = `<img src="${course.image}" class="certificate-img">`;
+      link = course.image;
+    }
 
-    });
+    if (course.certificate) {
+      preview = `<img src="images/pdf.png" class="certificate-img">`;
+      link = course.certificate;
+    }
+
+    div.innerHTML = `
+        ${preview}
+        <h4>${course.title}</h4>
+        <p>${course.institution}</p>
+        <a href="${link}" target="_blank">View Certificate</a>
+    `;
+
+    courseContainer.appendChild(div);
+  });
 }
 
     // ------------------- Projects -------------------
@@ -175,4 +188,5 @@ const observer = new IntersectionObserver(entries => {
 observer.observe(document.querySelector('#projects-counter'));
 
 });
+
 
