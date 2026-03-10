@@ -68,7 +68,7 @@
   "title": "HR Analysis Dashboard – Workforce & Performance Insights",
   "desc": "An interactive HR analytics dashboard designed to analyze employee workforce data and organizational performance. The dashboard provides insights into employee demographics, skill distribution, salary breakdown, leave tracking, regional employee distribution, and employment status. It also highlights key HR metrics such as total employees, gender ratio, performance rating, and age group distribution to support data-driven HR decision making.",
   "image": "https://raw.githubusercontent.com/NaimurRah1/HR-Analysis-Dashboard/main/HR_analysis.png",
-  "category": "Power BI",
+  "category": "Excel",
   "link": "https://github.com/NaimurRah1/HR-Analysis-Dashboard"
 }
   ],
@@ -100,6 +100,7 @@
 }
 ]
 }
+
 
 
 
