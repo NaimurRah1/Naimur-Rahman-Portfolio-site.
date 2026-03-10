@@ -63,6 +63,13 @@
     "image": "https://raw.githubusercontent.com/NaimurRah1/Naimur-Rahman-Website/main/photo/garments-powerbi.png",
     "category": "Power BI",
     "link": "https://app.powerbi.com/links/i2U9XMnatG?ctid=d57df211-4f37-47c0-81ed-dd6296f7638c&pbi_source=linkShare&bookmarkGuid=172d148d-74f5-4992-8480-47eecba23523"
+},
+    {
+  "title": "HR Analysis Dashboard – Workforce & Performance Insights",
+  "desc": "An interactive HR analytics dashboard designed to analyze employee workforce data and organizational performance. The dashboard provides insights into employee demographics, skill distribution, salary breakdown, leave tracking, regional employee distribution, and employment status. It also highlights key HR metrics such as total employees, gender ratio, performance rating, and age group distribution to support data-driven HR decision making.",
+  "image": "https://raw.githubusercontent.com/NaimurRah1/HR-Analysis-Dashboard/main/HR_analysis.png",
+  "category": "Power BI",
+  "link": "https://github.com/NaimurRah1/HR-Analysis-Dashboard"
 }
   ],
   "courses":[
@@ -93,6 +100,7 @@
 }
 ]
 }
+
 
 
 
