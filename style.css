@@ -346,10 +346,12 @@ ul{list-style:none;}
     background:rgba(255,255,255,0.05);
     backdrop-filter:blur(10px);
     border:1px solid rgba(255,255,255,0.1);
-    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+    /* lighter shadow */
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+
     transition:0.4s;
 }
-
 /* Glossy shine effect */
 .course-card::before{
     content:"";
@@ -555,6 +557,7 @@ ul{list-style:none;}
     gap: 20px;
     margin-top: 30px;
 }
+
 
 
 
